@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Automat</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <table>
+    <tr>
+      <th>Credit</th>
+      <th>Win credit</th>
+      <th>Win</th>
+    </tr>
+    <tr>
+      <td id="balance">$100</td>
+      <td id="win">$0</td>
+      <td id="currentWin">$0</td>
+    </tr>
+  </table>
+  <div class="slots">
+    <div class="reel"></div>
+    <div class="reel"></div>
+    <div class="reel"></div>
+  </div>
+
+  <div id="debug" class="debug"></div>
+  <img style="position:fixed; left: 0; top: 0; height: 100vh; width: auto;"
+    src="https://assets.codepen.io/439000/slotreel.webp">
+
+
+  <button id="rollButton">Roll ($10)</button>
+  <footer>s pomocí videa: <a href="https://www.youtube.com/watch?v=boI2B4Gpp34&ab_channel=CodeJos">Video</a>
+    <br>a spoluprací Filipa Hřivňackého</footer>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
